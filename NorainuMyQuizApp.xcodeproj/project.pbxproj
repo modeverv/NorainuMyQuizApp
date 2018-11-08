@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		178F56A2219483E200233E91 /* question.csv in Resources */ = {isa = PBXBuildFile; fileRef = 178F56A1219483E200233E91 /* question.csv */; };
+		178F56A4219487CC00233E91 /* QuestionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F56A3219487CC00233E91 /* QuestionDataManager.swift */; };
 		17A905C1218B414F000E48A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A905C0218B414F000E48A3 /* AppDelegate.swift */; };
 		17A905C3218B414F000E48A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A905C2218B414F000E48A3 /* ViewController.swift */; };
 		17A905C6218B414F000E48A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A905C4218B414F000E48A3 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		178F56A1219483E200233E91 /* question.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = question.csv; sourceTree = "<group>"; };
+		178F56A3219487CC00233E91 /* QuestionDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDataManager.swift; sourceTree = "<group>"; };
 		17A905BD218B414F000E48A3 /* NorainuMyQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorainuMyQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A905C0218B414F000E48A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A905C2218B414F000E48A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +58,14 @@
 		17A905BF218B414F000E48A3 /* NorainuMyQuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				178F56A1219483E200233E91 /* question.csv */,
 				17A905C0218B414F000E48A3 /* AppDelegate.swift */,
 				17A905C2218B414F000E48A3 /* ViewController.swift */,
 				17A905C4218B414F000E48A3 /* Main.storyboard */,
 				17A905C7218B4150000E48A3 /* Assets.xcassets */,
 				17A905C9218B4150000E48A3 /* LaunchScreen.storyboard */,
 				17A905CC218B4150000E48A3 /* Info.plist */,
+				178F56A3219487CC00233E91 /* QuestionDataManager.swift */,
 			);
 			path = NorainuMyQuizApp;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				17A905CB218B4150000E48A3 /* LaunchScreen.storyboard in Resources */,
 				17A905C8218B4150000E48A3 /* Assets.xcassets in Resources */,
+				178F56A2219483E200233E91 /* question.csv in Resources */,
 				17A905C6218B414F000E48A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				17A905C3218B414F000E48A3 /* ViewController.swift in Sources */,
 				17A905C1218B414F000E48A3 /* AppDelegate.swift in Sources */,
+				178F56A4219487CC00233E91 /* QuestionDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
